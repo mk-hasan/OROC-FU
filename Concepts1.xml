@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Concepts>
+  <Concept type="primitive">
+        <Name>Cup</Name>
+        <Material>Ceramic</Material>
+        <Shape>high convexity</Shape>
+        <Affordance>to drink from</Affordance>
+  </Concept>
+    <Concept type="primitive">
+        <Name>Book</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to read</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Newspaper</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to read</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Bucket</Name>
+        <Material>Plastic</Material>
+        <Shape>High convexity</Shape>
+        <Affordance>to carry water</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Vase</Name>
+        <Material>Porcelain</Material>
+        <Shape>High Convexity</Shape>
+        <Affordance>to put flowers in</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Wallpaper</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>as decoration</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Shelf</Name>
+        <Material>Wood</Material>
+        <Shape>Long Narrow Rectangular</Shape>
+        <Affordance>as support</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Surfboard</Name>
+        <Material>Glass fiber</Material>
+        <Shape>Long narrow rectangular</Shape>
+        <Affordance>to surf on</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>PaperTowel</Name>
+        <Material>Paper</Material>
+        <Shape>Small Thin Rectangular</Shape>
+        <Affordance>to wipe surfaces with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Soap</Name>
+        <Material>unknown</Material>
+        <Shape>Small Thick Rectangular</Shape>
+        <Affordance>cleaning self</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Candle</Name>
+        <Material>Wax</Material>
+        <Shape>cylinder</Shape>
+        <Affordance>illuminating</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Cooker</Name>
+        <Material>Metal</Material>
+        <Shape>Cuboid</Shape>
+        <Affordance>to cook on</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Toothbrush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>brush teeth</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Table</Name>
+        <Material>Wood</Material>
+        <Shape>Rectangular Thin with Legs</Shape>
+        <Affordance>Support</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Desk</Name>
+        <Material>Wood</Material>
+        <Shape>Rectangular Thin with Legs and Drawers</Shape>
+        <Affordance>Support</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Umbrella</Name>
+        <Material>Cloth and Metal</Material>
+        <Shape>Medium Convexity with Handle</Shape>
+        <Affordance>to defend from rain</Affordance>
+    </Concept>
+</Concepts>

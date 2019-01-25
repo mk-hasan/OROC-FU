@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Concepts>
+  <Concept type="primitive">
+        <Name>Cup</Name>
+        <Name>Tasse</Name>
+        <Material>Ceramic</Material>
+        <Material>Metal</Material>
+        <Shape>high convexity</Shape>
+        <Affordance>to drink from</Affordance>
+  </Concept>
+  <Concept type="primitive">
+        <Name>Book</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to read</Affordance>
+   </Concept>
+   <Concept type="primitive">
+        <Name>Newspaper</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to read</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Bucket</Name>
+        <Material>Plastic</Material>
+        <Shape>High convexity</Shape>
+        <Affordance>to carry water</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Vase</Name>
+        <Material>Porcelain</Material>
+        <Shape>High Convexity</Shape>
+        <Affordance>to put flowers in</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Wallpaper</Name>
+        <Material>Paper</Material>
+        <Shape>Thin Large Rectangular</Shape>
+        <Affordance>as decoration</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Shelf</Name>
+        <Material>Wood</Material>
+        <Shape>Long Narrow Rectangular</Shape>
+        <Affordance>as support</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Surfboard</Name>
+        <Material>Glass fiber</Material>
+        <Shape>Long narrow rectangular</Shape>
+        <Affordance>to surf on</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>PaperTowel</Name>
+        <Material>Paper</Material>
+        <Shape>Small Thin Rectangular</Shape>
+        <Affordance>to wipe surfaces with</Affordance>
+   </Concept>
+    <Concept type="primitive">
+        <Name>Soap</Name>
+        <Material>unknown</Material>
+        <Shape>Small Thick Rectangular</Shape>
+        <Affordance>for cleaning self</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Candle</Name>
+        <Material>Wax</Material>
+        <Shape>cylinder</Shape>
+        <Affordance>for illuminating</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Toothbrush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to brush teeth</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Coat brush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to brush coat with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Shoe brush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to brush shoes with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Broom</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to sweep the floor</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Toilet brush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to clean the toilet with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Painting brush</Name>
+        <Material>Plastic</Material>
+        <Shape>Handle with bristles</Shape>
+        <Affordance>to paint the wall with</Affordance>
+    </Concept>
+    <!-- THE SIMPLE MACHINES
+    <Concept type="primitive">
+        <Name>Cog</Name>
+        <Material>metal</Material>
+        <Shape>Round with indentations</Shape>
+        <Affordance>Rotates</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Inclined plane</Name>
+        <Material>unknown</Material>
+        <Shape>Inclined plane</Shape>
+        <Affordance>move up with ease and slide down</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pulley</Name>
+        <Material>unknown</Material>
+        <Shape>Wheel and Rope</Shape>
+        <Affordance>raise weight</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Lever</Name>
+        <Material>unknown</Material>
+        <Shape>rigid bar on pivot</Shape>
+        <Affordance>moves one end when other is pressed</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>wheel and axle</Name>
+        <Material>unknown</Material>
+        <Shape>Pulley</Shape>
+        <Affordance>raise weight</Affordance>
+    </Concept>
+      -->
+    <Concept type="primitive">
+        <Name>Screw</Name>
+        <Material>Metal</Material>
+        <Shape>Wedge with striations</Shape>
+        <Affordance>Fastening</Affordance>
+    </Concept>
+    
+    <Concept type="primitive">
+        <Name>Wedge</Name>
+        <Material>Wood</Material>
+        <Shape>Wedge</Shape>
+        <Affordance>separate objects</Affordance>
+        <Affordance>pin object in place</Affordance>
+    </Concept>
+     
+    <Concept type="primitive">
+        <Name>Table</Name>
+        <Material>Wood</Material>
+        <Shape>Rectangular Thin with Legs</Shape>
+        <Affordance>as Support</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Desk</Name>
+        <Material>Wood</Material>
+        <Shape>Rectangular Thin with Legs and Drawers</Shape>
+        <Affordance>as Support</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Umbrella</Name>
+        <Material>Cloth and Metal</Material>
+        <Shape>Medium Convexity with Handle</Shape>
+        <Affordance>to defend from rain</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Lamp</Name>
+        <Material>Metal, glass and cloth</Material>
+        <Shape>Leg support with bulb and cap</Shape>
+        <Affordance>for illuminating</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Spoon</Name>
+        <Material>Metal</Material>
+        <Shape>Long handle with high Convexity end</Shape>
+        <Affordance>for eating with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Bowl</Name>
+        <Material>Ceramic</Material>
+        <Shape>High Convexity</Shape>
+        <Affordance>as food container</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Tray</Name>
+        <Material>Metal</Material>
+        <Shape>Low Convexity</Shape>
+        <Affordance>to carry food</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pillow</Name>
+        <Material>Cloth</Material>
+        <Shape>cuboid</Shape>
+        <Affordance>to rest head</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pillow case</Name>
+        <Material>cloth</Material>
+        <Shape>empty cuboid</Shape>
+        <Affordance>to cover pillow</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Towel</Name>
+        <Material>Cloth</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to wipe with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Kitchen Towel</Name>
+        <Material>Cloth</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to wipe dishes with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Bathroom Towel</Name>
+        <Material>Cloth</Material>
+        <Shape>Thin Rectangular</Shape>
+        <Affordance>to wipe your hands with</Affordance>
+        <Affordance>to dry off your body</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Scales</Name>
+        <Material>Metal</Material>
+        <Shape>two plates attached on lever ends supported by stand</Shape>
+        <Affordance>to measure weight with</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Flowerpot</Name>
+        <Material>Ceramic</Material>
+        <Shape>High Convexity</Shape>
+        <Affordance>to hold earth and plants</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pot</Name>
+        <Material>Metal</Material>
+        <Shape>High convexity</Shape>
+        <Affordance>to cook in</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Saucer</Name>
+        <Material>Porcelain</Material>
+        <Shape>Low convexity</Shape>
+        <Affordance>to put cup on</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Plate</Name>
+        <Material>Porcelain</Material>
+        <Shape>Low convexity</Shape>
+        <Affordance>to serve food on</Affordance>
+        <Affordance>to eat on</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Ashtray</Name>
+        <Material>Porcelain</Material>
+         <Material>Glass</Material>
+        <Shape>Low convexity </Shape>
+         <Shape>High convexity </Shape>
+        <Affordance>to pu ash in when smoking</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pan</Name>
+        <Material>Metal</Material>
+        <Shape>Medium convexity with handle</Shape>
+        <Affordance>to cook in</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Lid</Name>
+        <Material>Metal and Glass</Material>
+        <Shape>Medium convexity with handle</Shape>
+        <Affordance>to put on top of a pot so that the warm stays in</Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Can</Name>
+        <Material>Metal</Material>
+        <Shape>Cylindrical</Shape>
+        <Affordance>to store food</Affordance>
+    </Concept>
+      
+    <Concept type="primitive">
+        <Name>Can opener</Name>
+        <Material>Metal</Material>
+        <Shape>Sharp rotating wheel plus handle</Shape>
+        <Affordance>to open cans with</Affordance>
+    </Concept>
+     
+    <Concept type="primitive">
+        <Name>Hammer</Name>
+        <Material>Metal and wood</Material>
+        <Shape>Cylinder and handle</Shape>
+        <Affordance>to drive nails through walls</Affordance>
+    </Concept>
+     
+    <Concept type="primitive">
+        <Name>Nail</Name>
+        <Material>Metal</Material>
+        <Shape>Sharp wedge</Shape>
+        <Affordance>to pin things</Affordance>
+    </Concept>
+    
+    <Concept type="primitive">
+        <Name>Bottle</Name>
+        <Material>Glass</Material>
+        <Shape>Container with narrow neck</Shape>
+        <Affordance>to store drink</Affordance>
+    </Concept>
+   
+    <Concept type="primitive">
+        <Name>Bottle opener</Name>
+        <Material>Metal</Material>
+        <Shape>Lever</Shape>
+        <Affordance>to open bottles</Affordance>
+    </Concept>
+     <!--
+      <Concept type="primitive">
+      <Name>Cooker</Name>
+      <Material>Metal</Material>
+      <Shape>Cuboid</Shape>
+      <Affordance>to cook on</Affordance>
+      </Concept>
+    <Concept type="primitive">
+        <Name>Screw driver</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Mirror</Name>
+        <Material></Material>
+        <Shape>Flat rectangular</Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Glass</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Window</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pen</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Pencil</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Vacuum cleaner</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+    <Concept type="primitive">
+        <Name>Peg</Name>
+        <Material></Material>
+        <Shape></Shape>
+        <Affordance></Affordance>
+    </Concept>
+   
+     -->
+     <Concept type="primitive">
+         <Name>Sheet of Paper</Name>
+         <Material>Paper</Material>
+         <Shape>Thin Rectangular</Shape>
+         <Affordance>to write on</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Blanket</Name>
+         <Material>Cloth</Material>
+         <Shape>Thin Large Rectangular</Shape>
+         <Affordance>to wrap self with and warm up</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Sofa Cover</Name>
+         <Material>Cloth</Material>
+         <Shape>Thin Large Rectangular</Shape>
+         <Affordance>to cover and protect the sofa</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Sheet</Name>
+         <Material>Cloth</Material>
+         <Shape>Thin Large Rectangular</Shape>
+         <Affordance>to put on bed</Affordance>
+         <Affordance>to sleep on</Affordance>
+         <Affordance>to cover matress</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Rug</Name>
+         <Material>Cloth</Material>
+         <Shape>Thin Large Rectangular</Shape>
+         <Affordance>to put on the floor</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Doormat</Name>
+         <Material>Cloth</Material>
+         <Shape>Thin Rectangular</Shape>
+         <Affordance>to wipe shoes on</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Curtain</Name>
+         <Material>Cloth</Material>
+         <Material>Velvet</Material>
+         <Shape>Thin Rectangular</Shape>
+         <Affordance>to hand in front of window in order to shade window with</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Rope</Name>
+         <Material>Twisted Yarn</Material>
+         <Shape>Long Line</Shape>
+         <Affordance>to tie things with</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>String</Name>
+         <Material>Twisted Yarn</Material>
+         <Shape>Long Line</Shape>
+         <Shape>Thin Long Line</Shape>
+         <Affordance>to hang objects with</Affordance>
+         <Affordance>for sewing</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Clothesline</Name>
+         <Material>Plastic</Material>
+         <Shape>Long Line</Shape>
+         <Shape>Thin Long Line</Shape>
+         <Affordance>to hang clothes on to dry</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Power Cord</Name>
+         <Material>Cable</Material>
+         <Shape>Long Line</Shape>
+         <Affordance>unknown</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Show Lace</Name>
+         <Material>String</Material>
+         <Shape>Long Line</Shape>
+         <Affordance>to tie shoes with</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Dental Floss</Name>
+         <Material>Nylon</Material>
+         <Shape>Thin Long Line</Shape>
+         <Affordance>to floss teeth with</Affordance>
+     </Concept>
+     
+     <Concept type="primitive">
+         <Name>Candle Holder</Name>
+         <Material>Ceramic</Material>
+         <Shape>High Convexity</Shape>
+         <Affordance>to hold candle</Affordance>
+     </Concept>
+     
+     <Concept type="primitive">
+         <Name>Matches</Name>
+         <Material>Wood and Fosfor</Material>
+         <Shape>Small thin stick</Shape>
+         <Affordance>to set things on fire</Affordance>
+     </Concept>
+     
+     <Concept type="primitive">
+         <Name>Doorstop</Name>
+         <Material>Metal</Material>
+         <Material>Wood</Material>
+         <Shape>Wedge</Shape>
+         <Affordance>stops door from closing</Affordance>
+     </Concept>
+     
+     <Concept type="primitive">
+         <Name>Pin</Name>
+         <Name>Push-pin</Name>
+         <Name>Thumbtack</Name>
+         <Material>Metal</Material>
+         <Shape>Long sharp</Shape>
+         <!-- Plastic head -->
+         <Affordance>Fastening</Affordance>
+         <Affordance>Pining things to a board</Affordance>
+         <Affordance>Pining things to a wall</Affordance>
+     </Concept>
+     <!-- Some of these where for the Complex Objects test
+      -->
+     <Concept type="primitive">
+         <Name>Sharp stone</Name>
+         <Material>Stone</Material>
+         <Shape>sharp rectangular</Shape>
+         <Affordance>to cut with</Affordance>
+         <Affordance>to scrape with</Affordance>
+     </Concept>
+      <Concept type="primitive">
+         <Name>Branch</Name>
+         <Material>Wood</Material>
+         <Shape>rectangular hand size</Shape>
+         <Affordance>to hold</Affordance>
+     </Concept>
+      <Concept type="primitive">
+         <Name>Salad tong</Name>
+         <Material>Metal</Material>
+         <Shape>Forked</Shape>
+         <Affordance>to serve Salad</Affordance>
+     </Concept>
+      <Concept type="primitive">
+         <Name>Hairband</Name>
+         <Material>Rubber</Material>
+         <Shape>Band</Shape>
+         <Affordance>to hold hair with</Affordance>
+     </Concept>
+      <Concept type="primitive">
+         <Name>Tree stumps</Name>
+         <Material>Wood</Material>
+         <Shape>cylindrical with flat end surfaces</Shape>
+         <Affordance>to support</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Jar</Name>
+         <Material>Glass</Material>
+         <Shape>High convexity</Shape>
+         <Affordance>to store food in</Affordance>
+     </Concept>
+     <!-- NEXT we construct more elements from the Complex Objects test
+      -->
+     <Concept type="primitive">
+         <Name>Blade</Name>
+         <Material>Metal</Material>
+         <Shape>Sharp rectangular</Shape>
+         <Affordance>to cut with</Affordance>
+     </Concept>
+     <Concept type="primitive">
+         <Name>Handle</Name>
+         <Material>Wood</Material>
+         <Shape>rectangular handsize</Shape>
+         <Affordance>to grab things by</Affordance>
+     </Concept>
+          <Concept type="primitive">
+         <Name>Rubber band</Name>
+         <Material>Rubber</Material>
+         <Shape>Band</Shape>
+         <Affordance>To hold objects together</Affordance>
+     </Concept>
+          <Concept type="primitive">
+              <Name>Forked Branch</Name>
+              <Material>Wood</Material>
+              <Shape>Forked</Shape>
+              <Affordance>to find water with</Affordance>
+          </Concept>
+          <Concept type="primitive">
+              <Name>Table legs</Name>
+              <Material>Wood</Material>
+              <Shape>cylindrical with flat end surfaces</Shape>
+              <Affordance>to support tabletop</Affordance>
+          </Concept>
+          <Concept type="primitive">
+              <Name>Tabletop</Name>
+              <Material>Wood</Material>
+              <Shape>Flat rectangular</Shape>
+              <Affordance>to put foor on</Affordance>
+              <Affordance>to put drinks on</Affordance>
+          </Concept>
+     <Concept type="primitive">
+         <Name>Container</Name>
+         <Material>Ceramic</Material>
+         <Shape>high convexity</Shape>
+         <Affordance>to keep things in</Affordance>
+     </Concept>
+</Concepts>
