@@ -110,11 +110,11 @@ public class orocMain {
                  break;
              }
          }
-         getReplacement(client,in_material,in_shape);
+         getReplacement(nodes,client,in_material,in_shape);
 	}
 	
 	
-	private static void getReplacement(Socket client, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape) throws IOException, InterruptedException {
+	private static void getReplacement(NodeList nodes,Socket client, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		 PrintWriter out = new PrintWriter(client.getOutputStream(),true);
          BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
@@ -178,8 +178,11 @@ public class orocMain {
 		
                  p_flag++;
 	}
-             System.out.println("All the replacement material for "+in_name+":"+removeDuplicate(replacement_material_list));
-             System.out.println("All the replacement shape for "+in_name+":"+removeDuplicate(replacement_shape_list));
+             replacement_material_list = removeDuplicate(replacement_material_list);
+             replacement_shape_list=removeDuplicate(replacement_shape_list);
+             System.out.println("All the replacement material for "+in_name+":"+replacement_material_list);
+             System.out.println("All the replacement shape for "+in_name+":"+replacement_shape_list);
+             orocMain.getReplacementObject(nodes,replacement_material_list,replacement_shape_list);
          }
 	}
 	
@@ -226,6 +229,14 @@ public class orocMain {
 		
 	}
 	
+	
+	public static void getReplacementObject(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list) {
+		
+		
+		orocGetMaterialBasedReplacement mbr = new orocGetMaterialBasedReplacement();
+		mbr.result(nodes,replacement_material_list);
+		
+	}
 	
 
 
