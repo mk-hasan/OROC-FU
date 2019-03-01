@@ -234,7 +234,11 @@ public class orocMain {
 		
 		
 		orocGetMaterialBasedReplacement mbr = new orocGetMaterialBasedReplacement();
+		orocGetShapeBasedReplacement sbr = new orocGetShapeBasedReplacement();
 		mbr.result(nodes,replacement_material_list);
+		sbr.result(nodes, replacement_shape_list);
+		orocGetMSBasedObject omsbr = new orocGetMSBasedObject();
+		omsbr.result(nodes,replacement_material_list,replacement_shape_list);
 		
 	}
 	
