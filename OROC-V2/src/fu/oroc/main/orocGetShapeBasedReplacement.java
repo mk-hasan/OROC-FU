@@ -9,11 +9,11 @@ public class orocGetShapeBasedReplacement {
 	
 
  
-	public void result(NodeList nodes, ArrayList<String> replacement_shape_list) {
+	public ArrayList<String> result(NodeList nodes, ArrayList<String> replacement_shape_list) {
 	if(replacement_shape_list.isEmpty()) 
 	{
 		System.out.println("No Object based on material found possible");
-		
+		return null;
 	}
 	else 
 	{
@@ -41,9 +41,13 @@ public class orocGetShapeBasedReplacement {
 			
 		}
 	}
-		System.out.println("Replacement Object based on shape similarity:"+replacementObject);
-		
+		//return replacementObject;
+		//System.out.println("Replacement Object based on shape similarity:"+replacementObject);
+		return replacementObject;
 	}
+	
+	
+	
 	
 }
 

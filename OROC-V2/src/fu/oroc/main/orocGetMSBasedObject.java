@@ -7,12 +7,12 @@ import org.w3c.dom.NodeList;
 
 public class orocGetMSBasedObject {
 
-	public void result(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list) {
+	public ArrayList<String> result(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list) {
 		
 		if((replacement_material_list.isEmpty())||(replacement_shape_list.isEmpty())) 
 		{
 			System.out.println("No Object based on material found possible");
-			
+			return null;
 		}else {
 			
 			ArrayList<String> replacementObject = new ArrayList<String>();
@@ -47,6 +47,7 @@ public class orocGetMSBasedObject {
 			            }
 					}
 				}
+				return replacementObject;
 			}else {
 				int count = replacement_material_list.size();
 				for(int i = 0;i<count;i++) {
@@ -80,7 +81,8 @@ public class orocGetMSBasedObject {
 				}
 				
 			}
-			System.out.println("Replacement Object based on Material and Shape similarity: "+replacementObject);
+			return replacementObject;
+			//System.out.println("Replacement Object based on Material and Shape similarity: "+replacementObject);
 		}
 		
 	}

@@ -1,51 +1,44 @@
 package fu.oroc.main;
-
+import java.util.List;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
-
-import fu.oroc.java.Concept;
-import fu.oroc.java.Relation;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
-import java.net.*;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import fu.oroc.java.Concept;
+import fu.oroc.java.Relation;
+import fur.oroc.csv.ConecptCSV;
+import fur.oroc.csv.CsVMain;
 public class orocMain {
 
-	public static void main(String[]args) throws IOException, SAXException, ParserConfigurationException, InterruptedException {
+	public static void main(String[]args) throws Exception {
 		ArrayList<Concept> conceptList = new ArrayList<Concept>();
         ArrayList<Relation> relationList = new ArrayList<Relation>();
         BufferedReader reader;
         orocMain.serverConnect();
+        //ConecptCSV cc = new ConecptCSV();
 	}
 	
 	
-	public static void serverConnect() throws IOException, SAXException, ParserConfigurationException, InterruptedException {
+	public static void serverConnect() throws Exception {
 		ServerSocket server = new ServerSocket(8080);
         System.out.println("wait for connection on port 8080");
         Random rand = new Random();
@@ -60,21 +53,33 @@ public class orocMain {
         }
 	}
 	
-	public static void orocExecution(Socket client) throws FileNotFoundException, SAXException, IOException, ParserConfigurationException, InterruptedException {
+	public static void orocExecution(Socket client) throws Exception {
 		 DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
          DocumentBuilder db = dbf.newDocumentBuilder();
          Document doc = db.parse(new FileInputStream(new File("/home/hasan/Desktop/new_Concepts.xml")));
 
-         NodeList nodes = doc.getElementsByTagName("Concept");
-         System.out.println("Number of Objects: " + nodes.getLength());
          HashMap<String, ArrayList<String>> in_material = new HashMap<String, ArrayList<String>>();
          HashMap<String, ArrayList<String>> in_shape = new HashMap<String, ArrayList<String>>();
-         //Element line = (Element) name.item(0);
-         //System.out.println("Name: " + getCharacterDataFromElement(line));
-         System.out.println("Please give the iput object ot get replacement: ");
-         Scanner sc= new Scanner(System.in);
-         String inputObject= sc.nextLine();
+        
+         NodeList nodes = doc.getElementsByTagName("Concept");
+         System.out.println("Number of Objects: " + nodes.getLength());
          
+       
+         for(int count =0;count<nodes.getLength();count++) {
+        
+        
+        
+         Element element1= (Element) nodes.item(count);
+         NodeList nl = element1.getElementsByTagName("Name");
+         Element inputObj=(Element)nl.item(0);
+         
+         //System.out.println("Name: " + getCharacterDataFromElement(line));
+         
+         Scanner sc= new Scanner(System.in);
+         //String inputObject= sc.nextLine();
+         String inputObject =getCharacterDataFromElement(inputObj);
+         
+         System.out.println("Object :"+inputObject);
          for (int j = 0; j < nodes.getLength(); j++) {
              Element element = (Element) nodes.item(j);
              NodeList name = element.getElementsByTagName("Name");
@@ -110,11 +115,13 @@ public class orocMain {
                  break;
              }
          }
-         getReplacement(nodes,client,in_material,in_shape);
+         getReplacement(nodes,client,in_material,in_shape,inputObject);
+         }
+         
 	}
 	
 	
-	private static void getReplacement(NodeList nodes,Socket client, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape) throws IOException, InterruptedException {
+	private static void getReplacement(NodeList nodes,Socket client, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape, String inputObject) throws Exception {
 		// TODO Auto-generated method stub
 		 PrintWriter out = new PrintWriter(client.getOutputStream(),true);
          BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
@@ -182,7 +189,8 @@ public class orocMain {
              replacement_shape_list=removeDuplicate(replacement_shape_list);
              System.out.println("All the replacement material for "+in_name+":"+replacement_material_list);
              System.out.println("All the replacement shape for "+in_name+":"+replacement_shape_list);
-             orocMain.getReplacementObject(nodes,replacement_material_list,replacement_shape_list);
+             
+             orocMain.getReplacementObject(nodes,replacement_material_list,replacement_shape_list,in_material,in_shape,inputObject);
          }
 	}
 	
@@ -230,21 +238,96 @@ public class orocMain {
 	}
 	
 	
-	public static void getReplacementObject(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list) {
+	public static void getReplacementObject(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape, String inputObject) throws Exception {
 		
 		
 		orocGetMaterialBasedReplacement mbr = new orocGetMaterialBasedReplacement();
 		orocGetShapeBasedReplacement sbr = new orocGetShapeBasedReplacement();
 		mbr.result(nodes,replacement_material_list);
-		sbr.result(nodes, replacement_shape_list);
+		ArrayList<String> sbrlist = sbr.result(nodes, replacement_shape_list);
 		orocGetMSBasedObject omsbr = new orocGetMSBasedObject();
-		omsbr.result(nodes,replacement_material_list,replacement_shape_list);
+		ArrayList<String> omsbrList=omsbr.result(nodes,replacement_material_list,replacement_shape_list);
+		
+		ArrayList<String> in_material1 = null;
+		ArrayList<String> in_shape1 = null;
+		for(String in_materialkey : in_material.keySet()){
+		in_material1 = in_material.get(in_materialkey);
+		}
+		for(String in_shapekey : in_shape.keySet()){
+			in_shape1 = in_shape.get(in_shapekey);
+			}
+		//System.out.println("Input material"+in_material1);
+		
+		orocGetSameMSObject sms = new orocGetSameMSObject();
+		ArrayList<String> smsList =sms.result(nodes, in_material1, in_shape1);
+		ArrayList<String> smdsList=sms.result1(nodes, in_material1, replacement_shape_list);
+		ArrayList<String> dmssList=sms.result2(nodes, replacement_material_list, in_shape1);	
+		
+		//System.out.println("Return sahpe based replacement"+sbrlist);
+		System.out.println("Same Material and Same Shpaes: "+smsList);
+		System.out.println("Same Material and Different Shapes: "+smdsList);
+		System.out.println("Different Material and Same Shapes: "+dmssList);
+		System.out.println("Different Material and Different Shapes: "+omsbrList);
+		orocMain.makeCsv(inputObject,smsList,smdsList,dmssList,omsbrList);
+		 in_material.clear();
+         in_shape.clear();
 		
 	}
 	
 
 
 	//*//
+	public static void makeCsv(String inputObject, ArrayList<String> smsList, ArrayList<String> smdsList, ArrayList<String> dmssList, ArrayList<String> omsbrList) throws Exception {
+		int smsListLength= smsList.size();
+		int smdsListLength = smdsList.size();
+		int dmssListLength = dmssList.size();
+		int omdbrListLenght = omsbrList.size();
+		//ConecptCSV cc =new ConecptCSV();
+	    List<ConecptCSV> ccList = Arrays.asList(
+	    		new ConecptCSV(inputObject,"Same","Same",smsListLength,smsList),
+	    		new ConecptCSV(inputObject,"Same","SOM",smdsListLength,smsList),
+	    		new ConecptCSV(inputObject,"SOM","Same",dmssListLength,smsList),
+	    		new ConecptCSV(inputObject,"SOM","SOM",omdbrListLenght,omsbrList));  		
+	    		 
+//		for(int count = 1;count<5;count++) {
+//	
+//			
+//			switch(count) {
+//			case 1:
+//				cc.setName(inputObject);
+//				cc.setMaterial("Same");
+//				cc.setShape("Same");
+//				cc.setNoOfObjects(smsListLength);
+//				cc.setObjectsList(smsList);
+//				break;
+//			case 2:
+//				cc.setName(inputObject);
+//				cc.setMaterial("SOM");
+//				cc.setShape("Same");
+//				cc.setNoOfObjects(dmssListLength);
+//				cc.setObjectsList(dmssList);
+//				break;
+//			case 3:
+//				cc.setName(inputObject);
+//				cc.setMaterial("Same");
+//				cc.setShape("SOM");
+//				cc.setNoOfObjects(smdsListLength);
+//				cc.setObjectsList(smdsList);
+//				break;
+//			case 4:
+//				cc.setName(inputObject);
+//				cc.setMaterial("SOM");
+//				cc.setShape("SOM");
+//				cc.setNoOfObjects(omdbrListLenght);
+//				cc.setObjectsList(omsbrList);
+//				break;
+//				
+//			}
+//			
+//		}
+	CsVMain.main(ccList);
+		
+	}
 	
 	public static String getCharacterDataFromElement(Element e) {
         Node child = e.getFirstChild();
@@ -255,5 +338,6 @@ public class orocMain {
         return "";
 
     }
+	
 }
 	
