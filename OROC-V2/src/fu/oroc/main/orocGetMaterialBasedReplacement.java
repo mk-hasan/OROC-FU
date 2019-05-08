@@ -41,7 +41,7 @@ public class orocGetMaterialBasedReplacement {
 				
 			}
 		}
-			System.out.println("Replacement Object based on material similarity:"+replacementObject);
+			//System.out.println("Replacement Object based on material similarity:"+replacementObject);
 			
 		}
 		

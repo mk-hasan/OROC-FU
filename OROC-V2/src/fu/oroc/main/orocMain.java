@@ -13,6 +13,8 @@ import java.util.concurrent.TimeUnit;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import fur.oroc.csv.CSVReader;
+import fur.oroc.csv.CSVReaderMaterial;
 import fur.oroc.csv.CSVUtils;
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.Document;
@@ -126,11 +128,19 @@ public class orocMain {
              int p_flag = 0;
             
              ArrayList<String> replacement_material_list = new ArrayList<String>();
+             ArrayList<String> replacement_material_list1 = new ArrayList<String>();
              ArrayList<String> in_material_list = in_material.get(in_name);
+             ArrayList<Double> material_score = new ArrayList<>();
+             ArrayList<Double> shape_score = new ArrayList<>();
+             
+             
              
             //**//
              ArrayList<String> in_shape_list = in_shape.get(in_name);
              ArrayList<String> replacement_shape_list = new ArrayList<String>();
+             ArrayList<String> replacement_shape_list1 = new ArrayList<String>();
+             
+            
              while(p_flag <15) {
                  
                  //System.out.println(in_name);
@@ -141,6 +151,7 @@ public class orocMain {
                      out.println(toClient);
                      String fromClient = in.readLine();
                
+                     //System.out.println("fromClient:"+fromClient);
                      if(replacement_material_list.contains(fromClient)) 
                      {
                     	 //System.out.println("...");
@@ -149,7 +160,16 @@ public class orocMain {
                       //System.out.println("Replacement Material for " + toClient + ": " + fromClient);
                    	  
                      }
+                     double score = CSVReaderMaterial.getConfidenceScore(toClient, fromClient);
+                     System.out.println("SCORE:"+ score);
+                     if(score>=3.5) {
+                    	 replacement_material_list1.add(fromClient);
+                    	 material_score.add(score);
+                     }
+                     
+                    
                      replacement_material_list.add(fromClient);
+                     
                      
                      
                  }
@@ -175,6 +195,12 @@ public class orocMain {
                     	
                     	 
                      }
+                     double score = CSVReader.getConfidenceScore(toClient2, fromClient2);
+                     System.out.println("SCORE:"+ score);
+                     if(score>=3.5) {
+                    	 replacement_shape_list1.add(fromClient2);
+                    	 shape_score.add(score);
+                     }
                     
                      replacement_shape_list.add(fromClient2);
                  }
@@ -184,6 +210,20 @@ public class orocMain {
 	}
              replacement_material_list = removeDuplicate(replacement_material_list);
              replacement_shape_list=removeDuplicate(replacement_shape_list);
+             
+             replacement_material_list1 = removeDuplicate(replacement_material_list1);
+             replacement_shape_list1 = removeDuplicate(replacement_shape_list1);
+             
+             material_score = removeDuplicateDouble(material_score);
+             shape_score= removeDuplicateDouble(shape_score);
+             
+             System.out.println("materials with threshold:"+replacement_material_list1);
+             System.out.println("material score"+material_score);
+             System.out.println("shapes with threshold:"+replacement_shape_list1);
+             System.out.println("shapes score"+shape_score);
+             
+             
+            
              System.out.println("All the replacement material for "+in_name+":"+replacement_material_list);
              System.out.println("All the replacement shape for "+in_name+":"+replacement_shape_list);
              
@@ -204,6 +244,41 @@ public class orocMain {
   
                 newList.add(element); 
             } 
+        } 
+  
+        // return the new list 
+        return newList; 
+	}
+	
+	private static ArrayList<Double> removeDuplicateDouble(ArrayList<Double> list) 
+	{
+		ArrayList<Double> newList = new ArrayList<Double>(); 
+		  int c=0;
+        // Traverse through the first list 
+        for (Double element : list) { 
+  
+            // If this element is not present in newList 
+            // then add it 
+        	if(element == 7.0) {
+        		if(newList.contains(element)) {
+        			if(c<2) {
+        				newList.add(element); 
+        				c++;
+        			}
+        			
+        		}else {
+        			newList.add(element); 
+        			c++;
+        			
+        		}
+        	}else {
+        		if (!newList.contains(element)) { 
+        			  
+                    newList.add(element); 
+                }
+        	
+        	}
+             
         } 
   
         // return the new list 
@@ -258,7 +333,9 @@ public class orocMain {
 		orocGetSameMSObject sms = new orocGetSameMSObject();
 		ArrayList<String> smsList =sms.result(nodes, in_material1, in_shape1);
 		ArrayList<String> smdsList=sms.result1(nodes, in_material1, replacement_shape_list);
-		ArrayList<String> dmssList=sms.result2(nodes, replacement_material_list, in_shape1);	
+		ArrayList<String> dmssList=sms.result2(nodes, replacement_material_list, in_shape1);
+		
+	
 		
 		//System.out.println("Return sahpe based replacement"+sbrlist);
 		System.out.println("Same Material and Same Shpaes: "+smsList);
