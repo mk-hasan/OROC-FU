@@ -33,9 +33,20 @@ public class addDataToSQL {
 	}
 	
 	
-	public void addNewResult(String obj_name, String material_type, String shape_type, int noOfobj, String resultlist) throws Exception{
-		String query = "INSERT INTO `"+ database +"`.`result` (`id`,`obj_name`, `material_type`,`shape_type`,`noOfobj`,`resultlist`)" +
-	"VALUES (NULL,?,?,?,?,?)";
+	
+	
+
+	
+	public void addNewResult(String obj_name, String material_type, String shape_type, int noOfobj, String resultlist,int noOfobj1,String resultlist1) throws Exception{
+		String query1 = "ALTER TABLE oroc "
+			    + "ADD COLUMN check VARCHAR(20), "
+			    + "ADD COLUMN count INT";
+		
+		String query = "INSERT INTO `"+ database +"`.`result` (`id`,`obj_name`, `material_type`,`shape_type`,`noOfobj`,`resultlist`,`noOfobjThreshold`,`resultListwithThreshold`)" +
+	"VALUES (NULL,?,?,?,?,?,?,?)";
+		
+		Statement st = connect.createStatement();
+	
 		
 		
 	try {
@@ -47,7 +58,11 @@ public class addDataToSQL {
 		preparedStatement.setString(3, shape_type);
 		preparedStatement.setInt(4, noOfobj);
 		preparedStatement.setString(5, resultlist);
-		preparedStatement.executeUpdate();
+		preparedStatement.setInt(6, noOfobj1);
+		preparedStatement.setString(7, resultlist1);
+		
+		
+		//preparedStatement.executeUpdate();
 	}
 	catch (Exception e) {
 		// TODO: handle exception

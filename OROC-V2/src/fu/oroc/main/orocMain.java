@@ -164,7 +164,11 @@ public class orocMain {
                      System.out.println("SCORE:"+ score);
                      if(score>=3.5) {
                     	 replacement_material_list1.add(fromClient);
+                    	 replacement_material_list1 = removeDuplicate(replacement_material_list1);
+                    	 
                     	 material_score.add(score);
+                    	 material_score = removeDuplicateDouble(material_score);
+                    	 
                      }
                      
                     
@@ -196,10 +200,12 @@ public class orocMain {
                     	 
                      }
                      double score = CSVReader.getConfidenceScore(toClient2, fromClient2);
-                     System.out.println("SCORE:"+ score);
+                     //System.out.println("SCORE:"+ score);
                      if(score>=3.5) {
                     	 replacement_shape_list1.add(fromClient2);
+                    	 replacement_shape_list1 = removeDuplicate(replacement_shape_list1);
                     	 shape_score.add(score);
+                    	 shape_score=removeDuplicateDouble2(shape_score);
                      }
                     
                      replacement_shape_list.add(fromClient2);
@@ -211,11 +217,11 @@ public class orocMain {
              replacement_material_list = removeDuplicate(replacement_material_list);
              replacement_shape_list=removeDuplicate(replacement_shape_list);
              
-             replacement_material_list1 = removeDuplicate(replacement_material_list1);
-             replacement_shape_list1 = removeDuplicate(replacement_shape_list1);
+             //replacement_material_list1 = removeDuplicate(replacement_material_list1);
+             //replacement_shape_list1 = removeDuplicate(replacement_shape_list1);
              
-             material_score = removeDuplicateDouble(material_score);
-             shape_score= removeDuplicateDouble(shape_score);
+             //material_score = removeDuplicateDouble(material_score);
+             //shape_score= removeDuplicateDouble2(shape_score);
              
              System.out.println("materials with threshold:"+replacement_material_list1);
              System.out.println("material score"+material_score);
@@ -227,7 +233,7 @@ public class orocMain {
              System.out.println("All the replacement material for "+in_name+":"+replacement_material_list);
              System.out.println("All the replacement shape for "+in_name+":"+replacement_shape_list);
              
-             orocMain.getReplacementObject(nodes,replacement_material_list,replacement_shape_list,in_material,in_shape,inputObject);
+             orocMain.getReplacementObject(nodes,replacement_material_list,replacement_shape_list,in_material,in_shape,inputObject,replacement_material_list1, replacement_shape_list1,material_score,shape_score);
          }
 	}
 	
@@ -284,6 +290,31 @@ public class orocMain {
         // return the new list 
         return newList; 
 	}
+	
+	private static ArrayList<Double> removeDuplicateDouble2(ArrayList<Double> list) 
+	{
+		ArrayList<Double> newList = new ArrayList<Double>(); 
+		  int c=0;
+        // Traverse through the first list 
+        for (Double element : list) { 
+  
+            // If this element is not present in newList 
+            // then add it 
+        	
+        	
+        		if (!newList.contains(element)) { 
+        			  
+                    newList.add(element); 
+                
+        	
+        	}
+        	
+             
+        } 
+  
+        // return the new list 
+        return newList; 
+	}
 
 
 	private static void getInputShapeMaterial(Element element, HashMap<String, ArrayList<String>> in_shape,
@@ -310,7 +341,7 @@ public class orocMain {
 	}
 	
 	
-	public static void getReplacementObject(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape, String inputObject) throws Exception {
+	public static void getReplacementObject(NodeList nodes, ArrayList<String> replacement_material_list, ArrayList<String> replacement_shape_list, HashMap<String,ArrayList<String>> in_material, HashMap<String,ArrayList<String>> in_shape, String inputObject, ArrayList<String> replacement_material_list1, ArrayList<String> replacement_shape_list1, ArrayList<Double> material_score, ArrayList<Double> shape_score) throws Exception {
 
 
         orocGetMaterialBasedReplacement mbr = new orocGetMaterialBasedReplacement();
@@ -318,8 +349,11 @@ public class orocMain {
 		mbr.result(nodes,replacement_material_list);
 		ArrayList<String> sbrlist = sbr.result(nodes, replacement_shape_list);
 		orocGetMSBasedObject omsbr = new orocGetMSBasedObject();
+		orocGetMSBasedObject1 omsbr1 = new orocGetMSBasedObject1();
 		ArrayList<String> omsbrList=omsbr.result(nodes,replacement_material_list,replacement_shape_list);
-		
+		ArrayList<String> omsbrList1 = omsbr1.result(nodes, replacement_material_list1, replacement_shape_list1,material_score,shape_score);
+				
+				
 		ArrayList<String> in_material1 = null;
 		ArrayList<String> in_shape1 = null;
 		for(String in_materialkey : in_material.keySet()){
@@ -335,6 +369,12 @@ public class orocMain {
 		ArrayList<String> smdsList=sms.result1(nodes, in_material1, replacement_shape_list);
 		ArrayList<String> dmssList=sms.result2(nodes, replacement_material_list, in_shape1);
 		
+		orocGetSameMSObject1 sms1 = new orocGetSameMSObject1();
+		ArrayList<String> smdsList1=sms1.result1(nodes, in_material1, replacement_shape_list1,shape_score);
+		ArrayList<String> dmssList1=sms1.result2(nodes, replacement_material_list1, in_shape1,material_score);
+		
+		
+		
 	
 		
 		//System.out.println("Return sahpe based replacement"+sbrlist);
@@ -342,8 +382,13 @@ public class orocMain {
 		System.out.println("Same Material and Different Shapes: "+smdsList);
 		System.out.println("Different Material and Same Shapes: "+dmssList);
 		System.out.println("Different Material and Different Shapes: "+omsbrList);
+		
+		System.out.println("Same Material and Different Shapes with threshold: "+smdsList1);
+		System.out.println("Different Material and Same Shapes with threshold: "+dmssList1);
+		System.out.println("Different Material and Different Shapes with threshold: "+omsbrList1);
+		
 
-		orocMain.makeCsv(inputObject,smsList,smdsList,dmssList,omsbrList);
+		orocMain.makeCsv(inputObject,smsList,smdsList,dmssList,omsbrList,smdsList1,dmssList1,omsbrList1, material_score, shape_score);
 		 in_material.clear();
          in_shape.clear();
 		
@@ -352,17 +397,60 @@ public class orocMain {
 
 
 	//*//
-	public static void makeCsv(String inputObject, ArrayList<String> smsList, ArrayList<String> smdsList, ArrayList<String> dmssList, ArrayList<String> omsbrList) throws Exception {
+	public static void makeCsv(String inputObject, ArrayList<String> smsList, ArrayList<String> smdsList, ArrayList<String> dmssList, ArrayList<String> omsbrList, ArrayList<String> smdsList1, ArrayList<String> dmssList1, ArrayList<String> omsbrList1, ArrayList<Double> material_score, ArrayList<Double> shape_score) throws Exception {
 		int smsListLength= smsList.size();
 		int smdsListLength = smdsList.size();
 		int dmssListLength = dmssList.size();
 		int omdbrListLenght = omsbrList.size();
+		int smdsListLength1=0;
+		
+		try {
+			if(smdsList1.size()!=0) {
+				smdsListLength1=smdsList1.size();
+			}else {
+				System.out.println("nullpoint");
+				smdsListLength1=0;
+			}
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.print("value is null");
+		}
+		
+		
+		int dmssListLength1 = 0;
+		try {
+			if(dmssList1.size()!=0) {
+				dmssListLength1=dmssList1.size();
+			}else {
+				System.out.println("nullpoint");
+				dmssListLength1=0;
+			}
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.print("value is null");
+		}
+		int omdbrListLenght1 = 0 ;
+		try {
+			if(omsbrList1.size()!=0) {
+				omdbrListLenght1=omsbrList1.size();
+			}else {
+				System.out.println("nullpoint");
+				omdbrListLenght1=0;
+			}
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.print("value is null");
+		}
+		
+		int ln = 0;
+		ArrayList<String> emp = new ArrayList<>();
+		
 		//ConecptCSV cc =new ConecptCSV();
 	    List<ConecptCSV> ccList = Arrays.asList(
-	    		new ConecptCSV(inputObject,"Same","Same",smsListLength,smsList),
-	    		new ConecptCSV(inputObject,"Same","SOM",smdsListLength,smsList),
-	    		new ConecptCSV(inputObject,"SOM","Same",dmssListLength,smsList),
-	    		new ConecptCSV(inputObject,"SOM","SOM",omdbrListLenght,omsbrList));  		
+	    		new ConecptCSV(inputObject,"Same","Same",smsListLength,smsList,ln,emp),
+	    		new ConecptCSV(inputObject,"Same","SOM",smdsListLength,smdsList,smdsListLength1,smdsList1),
+	    		new ConecptCSV(inputObject,"SOM","Same",dmssListLength,dmssList,dmssListLength1,dmssList1),
+	    		new ConecptCSV(inputObject,"SOM","SOM",omdbrListLenght,omsbrList,omdbrListLenght1,omsbrList1));  		
 	    		 
 //		for(int count = 1;count<5;count++) {
 //	
