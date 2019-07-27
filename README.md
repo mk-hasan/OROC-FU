@@ -1,3 +1,9 @@
-# OROC-FU
+## Object replacement in a cognitive AI system - OROC2.0
 
-## This is an Artificial intelligence agent (ongoing research project by Frieie University Berlin) to get the replacement object of a specific object. If we ask this agent what are the replacement object of "Book" ? The agent should give some related replace object like newspaper based on material or shape or material and shape similarity. 
+# The CreaCogs framework is an AI approach to computationally modellingand solving human creativity problems.  CreaCogs supports the following pro-cesses:
+
+- A multi-feature matching or correspondence between different concepts/objects
+- The ability to restructure concepts and objects
+- Re-representation of the problem templates they engage in
+
+# System Architecture
