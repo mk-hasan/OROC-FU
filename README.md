@@ -7,3 +7,5 @@
 - Re-representation of the problem templates they engage in
 
 # System Architecture
+
+![OROC architecture](/download(1).png)
