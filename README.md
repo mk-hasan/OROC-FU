@@ -8,4 +8,4 @@
 
 # System Architecture
 
-![OROC architecture](/download (1).png)
+![OROC architecture](/OROC2Archi.png)
