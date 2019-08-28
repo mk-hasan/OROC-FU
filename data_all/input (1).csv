@@ -1,0 +1,51 @@
+item1_title,item2_title, material, shape
+Cup,Bowl,7,0
+Book,Newspaper,7,7
+Newspaper,Book,7,7
+Vase, Container,5.2,7
+Wallpaper, Newspaper,7,4.3
+Shelf,Table,7,4
+Surfboard, Soap,7,4
+PaperTowel,Sheet of Paper,7,4
+Soap, Surfboard,7,3.6
+Toothbrush, Coat brush,7,7
+Coat brush, Shoe brush, 7,7
+Shoe brush, Painting brush, 7,7
+Broom, Toilet brush, 7,7
+Toilet brush,Coat brush, 7,7
+Painting brush,Toothbrush, 7,7
+Table,Desk,7,5.67
+Desk, Table,7,6.33
+Umbrella, Pan,7,7
+Spoon,Cup,7,4.33
+Bowl, Container,7,7
+Pillow, Pillow case, 7,7
+Pillow case, Curtain, 7,4
+Towel, Kitchen Towel,7,7
+Kitchen Towel, Bathroom Towel,7,7
+Bathroom Towel,Doormat,7,7
+Scales,Lid,7,5.67
+Flowerpot,Cup,7,7
+Pot, Jar, 7,7
+Saucer,Ashtray,7,4.33
+Plate, Vase,7,4.33
+Ashtray,  Plate, 7,4.33
+Pan,Lid, 7,7
+Lid,Umbrella, 7,7
+Can,Cup, 7,4.33
+Can opener, Nail, 7,4.33
+Hammer, Weights, 7,4.33
+Nail,Hammer, 7,4.33
+Bottle,Bucket, 7,4.33
+Sheet of Paper,PaperTowel, 7,7
+Blanket,Towel,7,5.67
+Sofa Cover,Pillow case,7,5.67
+Sheet, Rug, 7, 5.67
+Rug, Kitchen Towel, 7,5.67
+Doormat, Curtain,7,7
+Curtain, Pillow case,7,3.67
+Clothesline, Broom, 7,5
+Candle Holder,Flowerpot,7,7
+Matchbox,Book,5.2,4
+Jar, Pot,7,7
+Container,Cup, 7,7

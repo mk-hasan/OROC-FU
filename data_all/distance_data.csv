@@ -1,0 +1,51 @@
+item1_title,item2_title,material_dist,shape_dist
+Cup,Bowl,0.0881,0.0068
+Book,Newspaper,0.0218,0.0013
+Newspaper,Book,0.0218,0.0013
+Vase, Container,0.0778,0.0068
+Wallpaper, Newspaper,0.0218,0.0617
+Shelf,Table,0.0119,0.5206
+Surfboard, Soap,0.024,0.577
+PaperTowel,Sheet of Paper,0.0218,0.6697
+Soap, Surfboard,0.024,0.577
+Toothbrush, Coat brush,0.024,0.0
+Coat brush, Shoe brush, 0.024,0.0
+Shoe brush, Painting brush, 0.024,0.0
+Broom, Toilet brush, 0.024,0.0
+Toilet brush,Coat brush, 0.024,0.0
+Painting brush,Toothbrush, 0.024,0.0
+Table,Desk,0.0119,0.1983
+Desk, Table,0.0119,0.203
+Umbrella, Pan,0.0095,0.0084
+Spoon,Cup,0.0095,0.0095
+Bowl, Container,0.0881,0.0068
+Pillow, Pillow case, 0.013,0.0257
+Pillow case, Curtain, 0.013,0.4949
+Towel, Kitchen Towel,0.013,0.0013
+Kitchen Towel, Bathroom Towel,0.013,0.0013
+Bathroom Towel,Doormat,0.013,0.0013
+Scales,Lid,0.0095,0.0095
+Flowerpot,Cup,0.0881,0.0068
+Pot, Jar, 0.0095,0.0068
+Saucer,Ashtray,0.0667,0.7876
+Plate, Vase,0.0667,0.7876
+Ashtray,  Plate, 0.0667,0.0778
+Pan,Lid, 0.0095,0.0084
+Lid,Umbrella,0.0095,0.0084
+Can,Cup, 0.0095,0.0095
+Can opener, Nail, 0.0095,0.0095
+Hammer, Weights, 0.0305,0.0257
+Nail,Hammer, 0.0095,0.5655
+Bottle,Bucket, 0.024,0.0068
+Sheet of Paper,PaperTowel, 0.0218,0.0013
+Blanket,Towel,0.013,0.013
+Sofa Cover,Pillow case,0.013,0.2959
+Sheet, Rug,0.013,0.013
+Rug, Kitchen Towel, 0.013,0.013
+Doormat, Curtain,0.013,0.0013
+Curtain, Pillow case,0.013,0.3894
+Clothesline, Broom, 0.024,0.7032
+Candle Holder,Flowerpot,0.0881,0.0068
+Matchbox,Book,0.0617,0.3894
+Jar, Pot,0.0095,0.0068
+Container,Cup, 0.0881,0.0068

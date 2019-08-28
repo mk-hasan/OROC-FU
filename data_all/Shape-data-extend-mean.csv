@@ -1,0 +1,101 @@
+object1,object2,Unnamed: 0,similarity
+cuboid,cuboid,1942.0,7.0
+cuboid,cylinder,1907.0,2.1142857142857143
+cuboid,handle with bristles,1977.0,1.4
+cuboid,high convexity,1767.0,1.3714285714285714
+cuboid,long narrow rectangular,1837.0,4.457142857142857
+cuboid,medium convexity with handle,2082.0,1.6571428571428573
+cuboid,rectangular thin with legs,2012.0,4.628571428571429
+cuboid,rectangular thin with legs and drawers,2047.0,4.257142857142857
+cuboid,small thick rectangular,1872.0,5.485714285714286
+cuboid,thin rectangular,1802.0,4.3428571428571425
+cylinder,cuboid,1592.0,1.8857142857142857
+cylinder,cylinder,1557.0,6.9714285714285715
+cylinder,handle with bristles,1627.0,2.2857142857142856
+cylinder,high convexity,1417.0,3.5428571428571427
+cylinder,long narrow rectangular,1487.0,2.142857142857143
+cylinder,medium convexity with handle,1732.0,3.2285714285714286
+cylinder,rectangular thin with legs,1662.0,1.542857142857143
+cylinder,rectangular thin with legs and drawers,1697.0,1.5714285714285714
+cylinder,small thick rectangular,1522.0,1.7142857142857142
+cylinder,thin rectangular,1452.0,1.542857142857143
+handle with bristles,cuboid,2292.0,1.5142857142857142
+handle with bristles,cylinder,2257.0,1.6571428571428573
+handle with bristles,handle with bristles,2327.0,6.857142857142857
+handle with bristles,high convexity,2117.0,2.1142857142857143
+handle with bristles,long narrow rectangular,2187.0,1.8
+handle with bristles,medium convexity with handle,2432.0,1.7428571428571429
+handle with bristles,rectangular thin with legs,2362.0,1.3714285714285714
+handle with bristles,rectangular thin with legs and drawers,2397.0,1.3428571428571427
+handle with bristles,small thick rectangular,2222.0,1.3714285714285714
+handle with bristles,thin rectangular,2152.0,1.4
+high convexity,cuboid,192.0,1.457142857142857
+high convexity,cylinder,157.0,3.6
+high convexity,handle with bristles,227.0,2.0285714285714285
+high convexity,high convexity,17.0,6.742857142857143
+high convexity,long narrow rectangular,87.0,1.6857142857142857
+high convexity,medium convexity with handle,332.0,4.4
+high convexity,rectangular thin with legs,262.0,1.1714285714285715
+high convexity,rectangular thin with legs and drawers,297.0,1.2
+high convexity,small thick rectangular,122.0,1.3714285714285714
+high convexity,thin rectangular,52.0,1.1714285714285715
+long narrow rectangular,cuboid,892.0,4.485714285714286
+long narrow rectangular,cylinder,857.0,1.4857142857142858
+long narrow rectangular,handle with bristles,927.0,1.9142857142857144
+long narrow rectangular,high convexity,717.0,1.6285714285714286
+long narrow rectangular,long narrow rectangular,787.0,6.771428571428571
+long narrow rectangular,medium convexity with handle,1032.0,1.4285714285714286
+long narrow rectangular,rectangular thin with legs,962.0,4.257142857142857
+long narrow rectangular,rectangular thin with legs and drawers,997.0,4.171428571428572
+long narrow rectangular,small thick rectangular,822.0,4.371428571428571
+long narrow rectangular,thin rectangular,752.0,4.171428571428572
+medium convexity with handle,cuboid,3342.0,1.5142857142857142
+medium convexity with handle,cylinder,3307.0,4.0285714285714285
+medium convexity with handle,handle with bristles,3377.0,1.7714285714285714
+medium convexity with handle,high convexity,3167.0,4.714285714285714
+medium convexity with handle,long narrow rectangular,3237.0,1.3714285714285714
+medium convexity with handle,medium convexity with handle,3482.0,6.942857142857143
+medium convexity with handle,rectangular thin with legs,3412.0,2.0285714285714285
+medium convexity with handle,rectangular thin with legs and drawers,3447.0,1.3428571428571427
+medium convexity with handle,small thick rectangular,3272.0,1.4285714285714286
+medium convexity with handle,thin rectangular,3202.0,1.3428571428571427
+rectangular thin with legs,cuboid,2642.0,4.4
+rectangular thin with legs,cylinder,2607.0,1.2571428571428571
+rectangular thin with legs,handle with bristles,2677.0,1.4857142857142858
+rectangular thin with legs,high convexity,2467.0,1.4285714285714286
+rectangular thin with legs,long narrow rectangular,2537.0,4.0
+rectangular thin with legs,medium convexity with handle,2782.0,1.3714285714285714
+rectangular thin with legs,rectangular thin with legs,2712.0,6.857142857142857
+rectangular thin with legs,rectangular thin with legs and drawers,2747.0,5.8
+rectangular thin with legs,small thick rectangular,2572.0,4.114285714285714
+rectangular thin with legs,thin rectangular,2502.0,4.885714285714286
+rectangular thin with legs and drawers,cuboid,2992.0,4.0
+rectangular thin with legs and drawers,cylinder,2957.0,1.4
+rectangular thin with legs and drawers,handle with bristles,3027.0,1.3428571428571427
+rectangular thin with legs and drawers,high convexity,2817.0,1.457142857142857
+rectangular thin with legs and drawers,long narrow rectangular,2887.0,4.057142857142857
+rectangular thin with legs and drawers,medium convexity with handle,3132.0,1.4285714285714286
+rectangular thin with legs and drawers,rectangular thin with legs,3062.0,5.914285714285715
+rectangular thin with legs and drawers,rectangular thin with legs and drawers,3097.0,6.942857142857143
+rectangular thin with legs and drawers,small thick rectangular,2922.0,3.342857142857143
+rectangular thin with legs and drawers,thin rectangular,2852.0,4.428571428571429
+small thick rectangular,cuboid,1242.0,5.314285714285714
+small thick rectangular,cylinder,1207.0,1.7714285714285714
+small thick rectangular,handle with bristles,1277.0,1.2857142857142858
+small thick rectangular,high convexity,1067.0,1.4285714285714286
+small thick rectangular,long narrow rectangular,1137.0,4.057142857142857
+small thick rectangular,medium convexity with handle,1382.0,1.8
+small thick rectangular,rectangular thin with legs,1312.0,3.914285714285714
+small thick rectangular,rectangular thin with legs and drawers,1347.0,3.857142857142857
+small thick rectangular,small thick rectangular,1172.0,6.828571428571428
+small thick rectangular,thin rectangular,1102.0,4.942857142857143
+thin rectangular,cuboid,542.0,4.228571428571429
+thin rectangular,cylinder,507.0,1.6857142857142857
+thin rectangular,handle with bristles,577.0,1.6571428571428573
+thin rectangular,high convexity,367.0,1.3428571428571427
+thin rectangular,long narrow rectangular,437.0,4.457142857142857
+thin rectangular,medium convexity with handle,682.0,1.457142857142857
+thin rectangular,rectangular thin with legs,612.0,4.8
+thin rectangular,rectangular thin with legs and drawers,647.0,4.371428571428571
+thin rectangular,small thick rectangular,472.0,4.371428571428571
+thin rectangular,thin rectangular,402.0,6.885714285714286

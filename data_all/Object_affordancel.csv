@@ -1,0 +1,251 @@
+,WorkerId,object,affordances,likeability,novelty,usability
+0,A2GKX7OV3D8A3T,Cup,as food container,3,2,2
+1,A14MCHQB6Z8MVT,Cup,as food container,6,1,7
+2,ABMH09TPJ72JW,Cup,as food container,4,5,3
+3,A30OWLTYVF4Y79,Cup,as food container,5,4,7
+4,A1C4LNTWGUOD4P,Cup,as food container,4,5,6
+5,A1IQC2Y3UN3WEN,Book,to read,7,1,7
+6,A2SN4E7PX1NCLY,Book,to read,7,7,7
+7,A3A6C8329VTSN7,Book,to read,7,2,7
+8,A3T9WZOUQGE2UW,Book,to read,7,7,7
+9,A3LLAS4WXA8SKJ,Book,to read,7,2,7
+10,A2SN4E7PX1NCLY,Newspaper,to read,7,6,7
+11,A1RYSM4DVE5VPZ,Newspaper,to read,4,5,6
+12,A30OWLTYVF4Y79,Newspaper,to read,4,1,7
+13,AWWR9PY50W0Z9,Newspaper,to read,7,1,7
+14,A21NED23NSZLLD,Newspaper,to read,7,7,7
+15,A14MCHQB6Z8MVT,Vase,to keep things in,6,1,7
+16,A1RYSM4DVE5VPZ,Vase,to keep things in,5,3,4
+17,A3LLAS4WXA8SKJ,Vase,to keep things in,5,5,7
+18,A3T9WZOUQGE2UW,Vase,to keep things in,5,5,6
+19,A1IQC2Y3UN3WEN,Vase,to keep things in,7,1,7
+20,A3LLAS4WXA8SKJ,Wallpaper,to read,5,4,2
+21,A1RYSM4DVE5VPZ,Wallpaper,to read,7,6,7
+22,AWWR9PY50W0Z9,Wallpaper,to read,2,5,2
+23,A30OWLTYVF4Y79,Wallpaper,to read,1,4,3
+24,A14MCHQB6Z8MVT,Wallpaper,to read,1,6,1
+25,A14MCHQB6Z8MVT,Shelf,as Support,7,2,7
+26,A3A6C8329VTSN7,Shelf,as Support,4,4,4
+27,ATFI0R8PVG76L,Shelf,as Support,5,2,6
+28,A3T9WZOUQGE2UW,Shelf,as Support,5,4,6
+29,A21NED23NSZLLD,Shelf,as Support,7,7,7
+30,A14MCHQB6Z8MVT,Surfboard,for cleaning self,1,6,1
+31,AWWR9PY50W0Z9,Surfboard,for cleaning self,1,6,1
+32,APQTHI7VUXG2E,Surfboard,for cleaning self,4,4,5
+33,A2SN4E7PX1NCLY,Surfboard,for cleaning self,1,1,1
+34,A3LLAS4WXA8SKJ,Surfboard,for cleaning self,2,6,2
+35,A10P06DG75N0Z1,PaperTowel,to write on,2,2,4
+36,A21NED23NSZLLD,PaperTowel,to write on,3,4,3
+37,A3A6C8329VTSN7,PaperTowel,to write on,2,4,2
+38,A3LLAS4WXA8SKJ,PaperTowel,to write on,6,3,7
+39,A2SN4E7PX1NCLY,PaperTowel,to write on,1,3,1
+40,A3B4TT66MBD4GQ,Soap,to surf on,1,7,1
+41,A3A6C8329VTSN7,Soap,to surf on,2,7,2
+42,ANYB94DHDJKNO,Soap,to surf on,1,7,1
+43,A1RYSM4DVE5VPZ,Soap,to surf on,2,3,5
+44,A35C0II2FFV18S,Soap,to surf on,1,5,1
+46,A2GKX7OV3D8A3T,Toothbrush,to brush coat with,1,1,1
+47,ATFI0R8PVG76L,Toothbrush,to brush coat with,3,3,2
+48,A3A6C8329VTSN7,Toothbrush,to brush coat with,2,7,2
+49,A3LLAS4WXA8SKJ,Toothbrush,to brush coat with,4,7,7
+50,A10P06DG75N0Z1,Toothbrush,to brush coat with,1,2,1
+51,A3A6C8329VTSN7,Coat brush,to brush shoes with,4,7,4
+52,A3T9WZOUQGE2UW,Coat brush,to brush shoes with,2,2,4
+53,A1RYSM4DVE5VPZ,Coat brush,to brush shoes with,2,3,2
+54,A21NED23NSZLLD,Coat brush,to brush shoes with,2,7,3
+55,ATFI0R8PVG76L,Coat brush,to brush shoes with,1,2,2
+56,ANYB94DHDJKNO,Shoe brush,to paint the wall with,1,3,2
+57,AKKBFTQKC0D8H,Shoe brush,to paint the wall with,2,7,1
+59,A14MCHQB6Z8MVT,Shoe brush,to paint the wall with,1,7,1
+60,A30OWLTYVF4Y79,Shoe brush,to paint the wall with,2,7,4
+61,A10P06DG75N0Z1,Shoe brush,to paint the wall with,1,1,1
+62,A1MTOAVJOWQS0M,Broom,to clean the toilet with,2,4,2
+64,A21NED23NSZLLD,Broom,to clean the toilet with,1,1,1
+65,ANYB94DHDJKNO,Broom,to clean the toilet with,2,5,2
+66,A14MCHQB6Z8MVT,Broom,to clean the toilet with,1,2,1
+67,ATFI0R8PVG76L,Broom,to clean the toilet with,1,3,2
+68,ANYB94DHDJKNO,Toilet brush,to brush coat with,1,7,2
+69,ABMH09TPJ72JW,Toilet brush,to brush coat with,3,4,2
+70,A3A6C8329VTSN7,Toilet brush,to brush coat with,2,7,2
+72,A3B4TT66MBD4GQ,Toilet brush,to brush coat with,1,7,2
+73,A30OWLTYVF4Y79,Toilet brush,to brush coat with,1,5,2
+74,A30OWLTYVF4Y79,Painting brush,to brush teeth,1,6,2
+75,A14MCHQB6Z8MVT,Painting brush,to brush teeth,1,7,2
+76,AWWR9PY50W0Z9,Painting brush,to brush teeth,2,5,2
+77,A21NED23NSZLLD,Painting brush,to brush teeth,1,4,1
+78,ATFI0R8PVG76L,Painting brush,to brush teeth,3,4,1
+79,A3T9WZOUQGE2UW,Table,as Support,4,2,6
+80,A24DSECWUBZC0Z,Table,as Support,4,2,6
+81,A2SN4E7PX1NCLY,Table,as Support,7,7,7
+82,A24NYP336X0LCJ,Table,as Support,7,4,7
+84,A14MCHQB6Z8MVT,Table,as Support,4,2,7
+85,A3A6C8329VTSN7,Desk,as Support,4,4,4
+86,A30OWLTYVF4Y79,Desk,as Support,4,3,6
+87,A1RYSM4DVE5VPZ,Desk,as Support,4,3,5
+88,ABMH09TPJ72JW,Desk,as Support,5,6,5
+89,A14MCHQB6Z8MVT,Desk,as Support,4,2,6
+90,A1IQC2Y3UN3WEN,Umbrella,to cook in,1,7,2
+91,A21NED23NSZLLD,Umbrella,to cook in,1,1,1
+92,A14MCHQB6Z8MVT,Umbrella,to cook in,1,7,1
+93,AWWR9PY50W0Z9,Umbrella,to cook in,1,7,1
+94,A3T9WZOUQGE2UW,Umbrella,to cook in,1,1,1
+95,ATFI0R8PVG76L,Spoon,to drink from,2,3,2
+96,ABMH09TPJ72JW,Spoon,to drink from,4,5,3
+97,A14MCHQB6Z8MVT,Spoon,to drink from,2,3,6
+98,A3B4TT66MBD4GQ,Spoon,to drink from,4,1,4
+99,A30OWLTYVF4Y79,Spoon,to drink from,2,2,3
+100,A3A6C8329VTSN7,Bowl,as food container,7,2,7
+101,A14MCHQB6Z8MVT,Bowl,as food container,7,1,7
+102,A30OWLTYVF4Y79,Bowl,as food container,7,1,7
+103,A1XHFQKX09Y1RD,Bowl,as food container,5,2,7
+104,A3LLAS4WXA8SKJ,Bowl,as food container,7,2,7
+105,A14MCHQB6Z8MVT,Pillow,to cover pillow,2,2,2
+106,A21NED23NSZLLD,Pillow,to cover pillow,7,7,1
+107,A3LLAS4WXA8SKJ,Pillow,to cover pillow,4,2,2
+108,AO2M8J1H30OZF,Pillow,to cover pillow,3,2,2
+109,A1RYSM4DVE5VPZ,Pillow,to cover pillow,3,6,3
+110,A21NED23NSZLLD,Pillow case,to hand in front of window in order to shade window with,1,6,2
+111,A14MCHQB6Z8MVT,Pillow case,to hand in front of window in order to shade window with,3,7,5
+112,A5E2P5F1AXYZ1,Pillow case,to hand in front of window in order to shade window with,4,4,4
+113,A35C0II2FFV18S,Pillow case,to hand in front of window in order to shade window with,3,5,4
+114,A3T9WZOUQGE2UW,Pillow case,to hand in front of window in order to shade window with,3,3,2
+115,AJ9O2ZA0E8UDZ,Towel,to wipe dishes with,7,7,7
+117,ANYB94DHDJKNO,Towel,to wipe dishes with,6,1,7
+118,A1RYSM4DVE5VPZ,Towel,to wipe dishes with,6,6,7
+119,A3LLAS4WXA8SKJ,Towel,to wipe dishes with,7,2,7
+122,A3PIDY15ODYS8,Towel,to wipe dishes with,7,1,7
+123,A3LLAS4WXA8SKJ,Kitchen Towel,to dry off your body,4,2,7
+124,A3A6C8329VTSN7,Kitchen Towel,to dry off your body,3,3,3
+125,A3T9WZOUQGE2UW,Kitchen Towel,to dry off your body,2,3,7
+126,A10P06DG75N0Z1,Kitchen Towel,to dry off your body,2,4,6
+127,A5E2P5F1AXYZ1,Kitchen Towel,to dry off your body,2,2,2
+128,A10P06DG75N0Z1,Bathroom Towel,to wipe shoes o,5,5,7
+129,A3B4TT66MBD4GQ,Bathroom Towel,to wipe shoes o,6,3,7
+130,A3A6C8329VTSN7,Bathroom Towel,to wipe shoes o,3,4,3
+131,A14MCHQB6Z8MVT,Bathroom Towel,to wipe shoes o,2,4,7
+132,A3LLAS4WXA8SKJ,Bathroom Towel,to wipe shoes o,2,4,6
+133,AWWR9PY50W0Z9,Scales,to put on top of a pot so that the warm stays in,4,7,4
+134,ANYB94DHDJKNO,Scales,to put on top of a pot so that the warm stays in,1,5,1
+135,A1RYSM4DVE5VPZ,Scales,to put on top of a pot so that the warm stays in,4,3,6
+136,A21NED23NSZLLD,Scales,to put on top of a pot so that the warm stays in,2,6,4
+137,A3T9WZOUQGE2UW,Scales,to put on top of a pot so that the warm stays in,1,2,2
+139,A3LLAS4WXA8SKJ,Flowerpot,to drink from,5,6,7
+140,A14MCHQB6Z8MVT,Flowerpot,to drink from,2,7,4
+141,A3A6C8329VTSN7,Flowerpot,to drink from,4,7,2
+142,A3B4TT66MBD4GQ,Flowerpot,to drink from,4,7,3
+143,A10P06DG75N0Z1,Flowerpot,to drink from,1,2,4
+144,A1IQC2Y3UN3WEN,Pot,to store food in,5,1,7
+145,A3EUFDOUX1GCL,Pot,to store food in,1,1,1
+146,A3LLAS4WXA8SKJ,Pot,to store food in,5,5,7
+147,ABMH09TPJ72JW,Pot,to store food in,6,6,6
+148,A30OWLTYVF4Y79,Pot,to store food in,3,2,7
+149,AWWR9PY50W0Z9,Saucer,to put ash in when smoking,4,3,6
+150,A14MCHQB6Z8MVT,Saucer,to put ash in when smoking,2,1,7
+151,A30OWLTYVF4Y79,Saucer,to put ash in when smoking,2,3,5
+152,AKKBFTQKC0D8H,Saucer,to put ash in when smoking,1,3,4
+153,A3LLAS4WXA8SKJ,Saucer,to put ash in when smoking,6,2,7
+154,ATT3WMHDZNE0F,Plate,to put flowers in,4,5,2
+155,A3A6C8329VTSN7,Plate,to put flowers in,2,7,2
+156,A3T9WZOUQGE2UW,Plate,to put flowers in,1,1,1
+157,A3LLAS4WXA8SKJ,Plate,to put flowers in,5,5,5
+158,A2EELTS09HUTSF,Plate,to put flowers in,5,5,6
+159,A30OWLTYVF4Y79,Ashtray,to eat on,1,4,2
+160,A3T9WZOUQGE2UW,Ashtray,to eat on,1,2,2
+161,ABMH09TPJ72JW,Ashtray,to eat on,1,1,2
+162,ANYB94DHDJKNO,Ashtray,to eat on,2,5,6
+164,A21NED23NSZLLD,Ashtray,to eat on,1,1,1
+165,A3B4TT66MBD4GQ,Pan,o put on top of a pot so that the warm stays in,6,4,6
+166,A21NED23NSZLLD,Pan,o put on top of a pot so that the warm stays in,2,3,3
+167,A3T9WZOUQGE2UW,Pan,o put on top of a pot so that the warm stays in,2,2,4
+168,A3LLAS4WXA8SKJ,Pan,o put on top of a pot so that the warm stays in,4,6,4
+169,A1C4LNTWGUOD4P,Pan,o put on top of a pot so that the warm stays in,4,5,4
+170,A3B4TT66MBD4GQ,Lid,to defend from rain,5,4,7
+171,AN6L87Z4LP6R5,Lid,to defend from rain,2,2,5
+172,A3A6C8329VTSN7,Lid,to defend from rain,7,7,7
+173,AWWR9PY50W0Z9,Lid,to defend from rain,2,5,2
+174,A1RYSM4DVE5VPZ,Lid,to defend from rain,5,4,4
+175,A30OWLTYVF4Y79,Can,to drink from,3,5,7
+176,A3B4TT66MBD4GQ,Can,to drink from,4,2,6
+177,A1RYSM4DVE5VPZ,Can,to drink from,5,3,4
+178,A3A6C8329VTSN7,Can,to drink from,7,2,7
+179,AWWR9PY50W0Z9,Can,to drink from,6,3,6
+180,AD07S29ZUGNAK,Can opener,to pin things,1,1,1
+181,A14MCHQB6Z8MVT,Can opener,to pin things,2,6,2
+182,A3T9WZOUQGE2UW,Can opener,to pin things,1,1,1
+183,A30OWLTYVF4Y79,Can opener,to pin things,1,5,2
+184,A2SN4E7PX1NCLY,Can opener,to pin things,1,1,1
+185,A10P06DG75N0Z1,Hammer,to put weight on paper,6,5,2
+186,A3A6C8329VTSN7,Hammer,to put weight on paper,3,2,4
+187,A3T9WZOUQGE2UW,Hammer,to put weight on paper,2,3,5
+188,A21NED23NSZLLD,Hammer,to put weight on paper,2,5,7
+189,A14MCHQB6Z8MVT,Hammer,to put weight on paper,4,6,7
+190,A2SN4E7PX1NCLY,Nail,to drive nails through walls,7,7,7
+191,A20W9ZCV1YTGEM,Nail,to drive nails through walls,2,5,2
+192,A14MCHQB6Z8MVT,Nail,to drive nails through walls,1,4,1
+193,A30OWLTYVF4Y79,Nail,to drive nails through walls,1,4,2
+194,A1RYSM4DVE5VPZ,Nail,to drive nails through walls,5,5,6
+195,A3B4TT66MBD4GQ,Bottle,to carry water,7,1,7
+196,A2GKX7OV3D8A3T,Bottle,to carry water,7,7,7
+197,A30OWLTYVF4Y79,Bottle,to carry water,7,2,7
+198,A2SN4E7PX1NCLY,Bottle,to carry water,7,7,7
+199,A14MCHQB6Z8MVT,Bottle,to carry water,7,1,7
+200,ATFI0R8PVG76L,Sheet of Paper,to wipe surfaces with,2,2,3
+201,A14MCHQB6Z8MVT,Sheet of Paper,to wipe surfaces with,1,5,2
+202,A35C0II2FFV18S,Sheet of Paper,to wipe surfaces with,3,4,5
+203,A3EUFDOUX1GCL,Sheet of Paper,to wipe surfaces with,2,2,2
+204,AKKBFTQKC0D8H,Sheet of Paper,to wipe surfaces with,2,3,4
+205,ATFI0R8PVG76L,Blanket,to wipe with,1,2,3
+206,A3LLAS4WXA8SKJ,Blanket,to wipe with,5,2,7
+207,ANYB94DHDJKNO,Blanket,to wipe with,2,3,6
+208,ABMH09TPJ72JW,Blanket,to wipe with,3,4,4
+209,A1RYSM4DVE5VPZ,Blanket,to wipe with,4,3,4
+211,A3T9WZOUQGE2UW,Sofa Cover,to cover pillow,1,2,3
+212,A14MCHQB6Z8MVT,Sofa Cover,to cover pillow,4,4,6
+213,A2SN4E7PX1NCLY,Sofa Cover,to cover pillow,1,1,1
+214,AWWR9PY50W0Z9,Sofa Cover,to cover pillow,2,4,3
+215,A2EELTS09HUTSF,Sofa Cover,to cover pillow,6,7,5
+217,A1RYSM4DVE5VPZ,Sheet,to put on the floor,6,5,6
+218,A3B4TT66MBD4GQ,Sheet,to put on the floor,4,1,6
+219,AJ9O2ZA0E8UDZ,Sheet,to put on the floor,2,4,5
+220,A3LLAS4WXA8SKJ,Sheet,to put on the floor,5,4,7
+221,A3A6C8329VTSN7,Sheet,to put on the floor,4,7,4
+222,A14MCHQB6Z8MVT,Rug,to wipe dishes with,1,6,1
+223,A3A6C8329VTSN7,Rug,to wipe dishes with,2,7,2
+224,A35C0II2FFV18S,Rug,to wipe dishes with,3,6,4
+225,A30OWLTYVF4Y79,Rug,to wipe dishes with,1,4,1
+226,A3B4TT66MBD4GQ,Rug,to wipe dishes with,1,2,3
+227,A3A6C8329VTSN7,Doormat,to hand in front of window in order to shade window with,3,7,3
+228,ABMH09TPJ72JW,Doormat,to hand in front of window in order to shade window with,2,2,1
+229,A30OWLTYVF4Y79,Doormat,to hand in front of window in order to shade window with,1,5,2
+230,A3B4TT66MBD4GQ,Doormat,to hand in front of window in order to shade window with,2,7,6
+231,ATFI0R8PVG76L,Doormat,to hand in front of window in order to shade window with,4,5,2
+232,A3B4TT66MBD4GQ,Curtain,to cover pillow,4,2,5
+233,A2SN4E7PX1NCLY,Curtain,to cover pillow,1,1,1
+234,A14MCHQB6Z8MVT,Curtain,to cover pillow,2,6,3
+235,A3A6C8329VTSN7,Curtain,to cover pillow,6,7,6
+236,A30OWLTYVF4Y79,Curtain,to cover pillow,5,6,6
+237,A3LLAS4WXA8SKJ,Clothesline,to sweep the floor,3,6,2
+238,A14MCHQB6Z8MVT,Clothesline,to sweep the floor,1,6,1
+239,A2QV1T88XD5J7F,Clothesline,to sweep the floor,2,7,2
+240,A30OWLTYVF4Y79,Clothesline,to sweep the floor,1,2,1
+241,A2GKX7OV3D8A3T,Clothesline,to sweep the floor,1,1,1
+242,A35C0II2FFV18S,Candle Holder,to hold earth and plants,7,6,7
+243,A3T9WZOUQGE2UW,Candle Holder,to hold earth and plants,4,5,5
+244,A14MCHQB6Z8MVT,Candle Holder,to hold earth and plants,2,4,4
+245,A3A6C8329VTSN7,Candle Holder,to hold earth and plants,5,5,5
+246,A30OWLTYVF4Y79,Candle Holder,to hold earth and plants,6,7,7
+247,AWWR9PY50W0Z9,Matchbox,to read,3,5,2
+248,A14MCHQB6Z8MVT,Matchbox,to read,1,7,1
+249,ATFI0R8PVG76L,Matchbox,to read,2,4,1
+250,A3A6C8329VTSN7,Matchbox,to read,2,7,2
+251,A3LLAS4WXA8SKJ,Matchbox,to read,3,1,2
+252,A3A6C8329VTSN7,Jar,to cook in,2,5,2
+253,A3B4TT66MBD4GQ,Jar,to cook in,4,4,6
+254,A14MCHQB6Z8MVT,Jar,to cook in,2,5,2
+255,A3LLAS4WXA8SKJ,Jar,to cook in,4,2,7
+256,AKKBFTQKC0D8H,Jar,to cook in,3,5,3
+257,A2SN4E7PX1NCLY,Container,to drink from,7,6,7
+258,A14MCHQB6Z8MVT,Container,to drink from,4,1,7
+259,AWWR9PY50W0Z9,Container,to drink from,4,2,5
+260,A30OWLTYVF4Y79,Container,to drink from,2,3,5
+261,A21NED23NSZLLD,Container,to drink from,2,5,7

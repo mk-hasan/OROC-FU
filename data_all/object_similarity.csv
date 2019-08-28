@@ -1,0 +1,259 @@
+,WorkerId,object1,object2,similarity
+0,ATT3WMHDZNE0F,Cup,Bowl,Medium
+1,A1V5ETMSSAICW1,Cup,Bowl,High
+2,AKLKDS34ZAGML,Cup,Bowl,Medium High
+3,A3UEM5PCYERMXX,Cup,Bowl,Medium
+4,A1C4LNTWGUOD4P,Cup,Bowl,Medium High
+5,A1LG8QD78XR5OS,Book,Newspaper,Medium High
+6,ATT3WMHDZNE0F,Book,Newspaper,Medium High
+7,AKLKDS34ZAGML,Book,Newspaper,Medium
+8,A3FIQ72HYZBNWC,Book,Newspaper,Low
+9,A167GKZSRIYRC1,Book,Newspaper,Very High
+10,AKLKDS34ZAGML,Newspaper,Book,Medium
+11,A3FIQ72HYZBNWC,Newspaper,Book,Medium High
+12,A1S6C6EN8MPKC3,Newspaper,Book,Medium High
+13,A3UEM5PCYERMXX,Newspaper,Book,Medium High
+14,A1LW9X1B88MB1C,Newspaper,Book,Very High
+15,A3UEM5PCYERMXX,Vase,Container,High
+16,A3FIQ72HYZBNWC,Vase,Container,Medium
+17,A167GKZSRIYRC1,Vase,Container,Medium
+18,AKLKDS34ZAGML,Vase,Container,Medium
+19,A19Q676CHKCVOR,Vase,Container,High
+20,ATT3WMHDZNE0F,Wallpaper,Newspaper,Low
+21,A1V5ETMSSAICW1,Wallpaper,Newspaper,Low
+22,A3UEM5PCYERMXX,Wallpaper,Newspaper,Medium High
+23,A3NMQX36V9DCDD,Wallpaper,Newspaper,Very High
+24,AKLKDS34ZAGML,Wallpaper,Newspaper,Very Low
+25,A167GKZSRIYRC1,Shelf,Table,Medium High
+26,A34930YXVQ8SUT,Shelf,Table,Medium High
+27,AKLKDS34ZAGML,Shelf,Table,Medium Low
+28,A3FIQ72HYZBNWC,Shelf,Table,Medium
+29,A1LG8QD78XR5OS,Shelf,Table,Medium Low
+30,A14MCHQB6Z8MVT,Surfboard,Soap,Very Low
+31,A167GKZSRIYRC1,Surfboard,Soap,Medium High
+32,A1LG8QD78XR5OS,Surfboard,Soap,Very Low
+33,A19Q676CHKCVOR,Surfboard,Soap,Very Low
+34,A34930YXVQ8SUT,Surfboard,Soap,Very Low
+35,AKLKDS34ZAGML,PaperTowel,Sheet of Paper,Medium High
+36,A1V5ETMSSAICW1,PaperTowel,Sheet of Paper,Medium High
+37,A3UEM5PCYERMXX,PaperTowel,Sheet of Paper,Very High
+38,A3FIQ72HYZBNWC,PaperTowel,Sheet of Paper,Medium Low
+39,A1LW9X1B88MB1C,PaperTowel,Sheet of Paper,Very High
+40,A19Q676CHKCVOR,Soap,Surfboard,Very Low
+41,A3UEM5PCYERMXX,Soap,Surfboard,Very Low
+42,A2P7GS077JVDJK,Soap,Surfboard,Very Low
+43,AKLKDS34ZAGML,Soap,Surfboard,Very Low
+44,A3FIQ72HYZBNWC,Soap,Surfboard,Medium
+45,A19Q676CHKCVOR,Toothbrush,Coat brush,Medium Low
+46,A3UEM5PCYERMXX,Toothbrush,Coat brush,High
+47,AKLKDS34ZAGML,Toothbrush,Coat brush,Medium Low
+48,A1S6C6EN8MPKC3,Toothbrush,Coat brush,Low
+49,A1C4LNTWGUOD4P,Toothbrush,Coat brush,Medium High
+50,A14MCHQB6Z8MVT,Coat brush,Shoe brush,Medium High
+51,A1LG8QD78XR5OS,Coat brush,Shoe brush,Very High
+52,A3UEM5PCYERMXX,Coat brush,Shoe brush,Medium High
+53,A2P7GS077JVDJK,Coat brush,Shoe brush,Medium High
+54,AKLKDS34ZAGML,Coat brush,Shoe brush,Medium High
+55,A1V5ETMSSAICW1,Shoe brush,Painting brush,Medium
+56,A3UEM5PCYERMXX,Shoe brush,Painting brush,Very High
+57,A3FIQ72HYZBNWC,Shoe brush,Painting brush,Medium Low
+58,AKLKDS34ZAGML,Shoe brush,Painting brush,Medium
+59,A14MCHQB6Z8MVT,Shoe brush,Painting brush,Medium Low
+60,A3UEM5PCYERMXX,Broom,Toilet brush,Low
+61,A1V5ETMSSAICW1,Broom,Toilet brush,Medium
+62,A3FIQ72HYZBNWC,Broom,Toilet brush,Medium
+63,A1C4LNTWGUOD4P,Broom,Toilet brush,Medium
+64,AKLKDS34ZAGML,Broom,Toilet brush,Medium
+65,A26KLP2RK19RR3,Toilet brush,Coat brush,Medium High
+66,AZCGF2D7QIO10,Toilet brush,Coat brush,Medium High
+67,A1LW9X1B88MB1C,Toilet brush,Coat brush,Medium Low
+68,A3FIQ72HYZBNWC,Toilet brush,Coat brush,Low
+69,A167GKZSRIYRC1,Toilet brush,Coat brush,Medium
+70,A3FIQ72HYZBNWC,Painting brush,Toothbrush,High
+71,A3UEM5PCYERMXX,Painting brush,Toothbrush,Medium
+72,AKLKDS34ZAGML,Painting brush,Toothbrush,Medium
+73,A312HQ3OU0EYTB,Painting brush,Toothbrush,Low
+74,A1V5ETMSSAICW1,Painting brush,Toothbrush,Medium High
+75,A3UEM5PCYERMXX,Table,Desk,High
+76,A19Q676CHKCVOR,Table,Desk,High
+77,A1S6C6EN8MPKC3,Table,Desk,High
+78,A34930YXVQ8SUT,Table,Desk,Very High
+79,AKLKDS34ZAGML,Table,Desk,High
+80,A1LG8QD78XR5OS,Desk,Table,High
+81,AKLKDS34ZAGML,Desk,Table,High
+82,AZCGF2D7QIO10,Desk,Table,Medium High
+83,A1V5ETMSSAICW1,Desk,Table,Very High
+84,A167GKZSRIYRC1,Desk,Table,High
+85,AKLKDS34ZAGML,Umbrella,Pan,Very Low
+86,A1LG8QD78XR5OS,Umbrella,Pan,Very Low
+87,A3FIQ72HYZBNWC,Umbrella,Pan,Medium High
+88,ATT3WMHDZNE0F,Umbrella,Pan,Very Low
+89,A167GKZSRIYRC1,Umbrella,Pan,Medium Low
+90,A19Q676CHKCVOR,Spoon,Cup,Very Low
+91,A3FIQ72HYZBNWC,Spoon,Cup,Medium
+92,AKLKDS34ZAGML,Spoon,Cup,Low
+93,A312HQ3OU0EYTB,Spoon,Cup,Very Low
+94,A15SJZQBR8I3B3,Spoon,Cup,Low
+95,AU04NHNF2WGMK,Bowl,Container,Medium High
+96,AKLKDS34ZAGML,Bowl,Container,Medium
+97,A3UEM5PCYERMXX,Bowl,Container,High
+98,A3FIQ72HYZBNWC,Bowl,Container,Medium High
+99,A1LW9X1B88MB1C,Bowl,Container,High
+100,A1V5ETMSSAICW1,Pillow,Pillow case,Medium High
+101,A15SJZQBR8I3B3,Pillow,Pillow case,Medium
+102,A19Q676CHKCVOR,Pillow,Pillow case,Very Low
+103,AKLKDS34ZAGML,Pillow,Pillow case,Medium Low
+104,A3UEM5PCYERMXX,Pillow,Pillow case,Medium High
+105,A3FIQ72HYZBNWC,Pillow case,Curtain,Medium Low
+106,A19Q676CHKCVOR,Pillow case,Curtain,Medium Low
+107,A1V5ETMSSAICW1,Pillow case,Curtain,Medium Low
+108,A3UEM5PCYERMXX,Pillow case,Curtain,Very Low
+109,AKLKDS34ZAGML,Pillow case,Curtain,Medium Low
+110,A1C4LNTWGUOD4P,Towel,Kitchen Towel,High
+111,A3FIQ72HYZBNWC,Towel,Kitchen Towel,Medium Low
+112,A1LW9X1B88MB1C,Towel,Kitchen Towel,Medium
+113,AKLKDS34ZAGML,Towel,Kitchen Towel,Medium High
+114,A1LG8QD78XR5OS,Towel,Kitchen Towel,Very High
+115,A3FIQ72HYZBNWC,Kitchen Towel,Bathroom Towel,Medium
+116,A3UEM5PCYERMXX,Kitchen Towel,Bathroom Towel,Very High
+117,A19Q676CHKCVOR,Kitchen Towel,Bathroom Towel,Medium High
+118,A1C4LNTWGUOD4P,Kitchen Towel,Bathroom Towel,Medium High
+119,AKLKDS34ZAGML,Kitchen Towel,Bathroom Towel,High
+120,A1LG8QD78XR5OS,Bathroom Towel,Doormat,Medium
+121,A3UEM5PCYERMXX,Bathroom Towel,Doormat,Medium Low
+122,A1V5ETMSSAICW1,Bathroom Towel,Doormat,Medium Low
+123,AKLKDS34ZAGML,Bathroom Towel,Doormat,Low
+124,A3FIQ72HYZBNWC,Bathroom Towel,Doormat,Very High
+125,A3FIQ72HYZBNWC,Scales,Lid,High
+126,A19Q676CHKCVOR,Scales,Lid,Very Low
+127,A1C4LNTWGUOD4P,Scales,Lid,Low
+128,AKLKDS34ZAGML,Scales,Lid,Low
+129,A1V5ETMSSAICW1,Scales,Lid,Very Low
+130,AKLKDS34ZAGML,Flowerpot,Cup,Medium
+131,A3UEM5PCYERMXX,Flowerpot,Cup,Medium High
+132,A1LG8QD78XR5OS,Flowerpot,Cup,High
+133,A1LW9X1B88MB1C,Flowerpot,Cup,Medium High
+134,A3FIQ72HYZBNWC,Flowerpot,Cup,Medium Low
+135,A1V5ETMSSAICW1,Pot,Jar,High
+136,A3UEM5PCYERMXX,Pot,Jar,High
+137,A19Q676CHKCVOR,Pot,Jar,High
+138,AKLKDS34ZAGML,Pot,Jar,Medium
+139,A3FIQ72HYZBNWC,Pot,Jar,Medium High
+140,A1V5ETMSSAICW1,Saucer,Ashtray,Medium Low
+141,ACLKZFL7JKOYG,Saucer,Ashtray,High
+142,A3FIQ72HYZBNWC,Saucer,Ashtray,Very High
+143,A14MCHQB6Z8MVT,Saucer,Ashtray,Medium Low
+144,A3UEM5PCYERMXX,Saucer,Ashtray,Medium High
+145,A3UEM5PCYERMXX,Plate,Vase,Low
+146,A1LG8QD78XR5OS,Plate,Vase,Low
+147,ATT3WMHDZNE0F,Plate,Vase,Low
+148,A14MCHQB6Z8MVT,Plate,Vase,Medium Low
+149,AKLKDS34ZAGML,Plate,Vase,Low
+150,ATT3WMHDZNE0F,Ashtray,Plate,Medium Low
+151,A1LW9X1B88MB1C,Ashtray,Plate,Medium High
+152,A3FIQ72HYZBNWC,Ashtray,Plate,Low
+153,A19Q676CHKCVOR,Ashtray,Plate,Medium
+154,AKLKDS34ZAGML,Ashtray,Plate,Medium
+155,A1C4LNTWGUOD4P,Pan,Lid,Low
+156,AKLKDS34ZAGML,Pan,Lid,Medium High
+157,A3FIQ72HYZBNWC,Pan,Lid,Medium
+158,A3UEM5PCYERMXX,Pan,Lid,Low
+159,A14MCHQB6Z8MVT,Pan,Lid,Very Low
+160,A3UEM5PCYERMXX,Lid,Umbrella,Low
+161,A1V5ETMSSAICW1,Lid,Umbrella,Low
+162,A14MCHQB6Z8MVT,Lid,Umbrella,Very Low
+163,AKLKDS34ZAGML,Lid,Umbrella,Very Low
+164,A3FIQ72HYZBNWC,Lid,Umbrella,Very Low
+165,A167GKZSRIYRC1,Can,Cup,Medium
+166,A3UEM5PCYERMXX,Can,Cup,Medium High
+167,A1LG8QD78XR5OS,Can,Cup,High
+168,AKLKDS34ZAGML,Can,Cup,Medium
+169,A19Q676CHKCVOR,Can,Cup,High
+170,A1LG8QD78XR5OS,Can opener,Nail,Very Low
+171,AKLKDS34ZAGML,Can opener,Nail,Low
+172,A19Q676CHKCVOR,Can opener,Nail,Low
+173,A14MCHQB6Z8MVT,Can opener,Nail,Medium Low
+174,A1C4LNTWGUOD4P,Can opener,Nail,Medium
+175,A3FIQ72HYZBNWC,Hammer,Weights,Medium Low
+176,AKLKDS34ZAGML,Hammer,Weights,Medium
+177,A19Q676CHKCVOR,Hammer,Weights,Very Low
+178,ATT3WMHDZNE0F,Hammer,Weights,Medium
+179,A1V5ETMSSAICW1,Hammer,Weights,Medium
+180,AKLKDS34ZAGML,Nail,Hammer,Medium Low
+181,A1LG8QD78XR5OS,Nail,Hammer,Very Low
+182,A15SJZQBR8I3B3,Nail,Hammer,Very Low
+183,A3UEM5PCYERMXX,Nail,Hammer,Low
+184,A3FIQ72HYZBNWC,Nail,Hammer,Medium
+185,A23IE43UEEETXO,Bottle,Bucket,Medium
+186,AKLKDS34ZAGML,Bottle,Bucket,Medium Low
+187,A3UEM5PCYERMXX,Bottle,Bucket,Very Low
+188,A9JPMRRBFO4NL,Bottle,Bucket,Medium
+189,A14MCHQB6Z8MVT,Bottle,Bucket,Low
+190,A38O2DVYPB632V,Bottle,Bucket,Medium
+191,A1LG8QD78XR5OS,Bottle,Bucket,Low
+192,AJ9O2ZA0E8UDZ,Bottle,Bucket,Very Low
+193,A19Q676CHKCVOR,Bottle,Bucket,Medium Low
+194,A3FIQ72HYZBNWC,Sheet of Paper,PaperTowel,Medium High
+195,A1LG8QD78XR5OS,Sheet of Paper,PaperTowel,High
+196,A19Q676CHKCVOR,Sheet of Paper,PaperTowel,Medium
+197,AKLKDS34ZAGML,Sheet of Paper,PaperTowel,Medium Low
+198,A167GKZSRIYRC1,Sheet of Paper,PaperTowel,High
+199,A1LG8QD78XR5OS,Blanket,Towel,Medium
+200,A1LW9X1B88MB1C,Blanket,Towel,High
+201,AKLKDS34ZAGML,Blanket,Towel,Medium High
+202,A1C4LNTWGUOD4P,Blanket,Towel,Medium High
+203,A3UEM5PCYERMXX,Blanket,Towel,High
+204,A3UEM5PCYERMXX,Sofa Cover,Pillow case,Low
+205,A1LG8QD78XR5OS,Sofa Cover,Pillow case,Low
+206,A3FIQ72HYZBNWC,Sofa Cover,Pillow case,Medium Low
+207,ACLKZFL7JKOYG,Sofa Cover,Pillow case,Medium High
+208,AKLKDS34ZAGML,Sofa Cover,Pillow case,Medium
+209,A2P7GS077JVDJK,Sheet,Rug,Low
+210,A167GKZSRIYRC1,Sheet,Rug,Medium Low
+211,AKLKDS34ZAGML,Sheet,Rug,Low
+212,A1LG8QD78XR5OS,Sheet,Rug,Medium Low
+213,A3FIQ72HYZBNWC,Sheet,Rug,Medium High
+214,A1V5ETMSSAICW1,Rug,Kitchen Towel,Medium
+215,A3UEM5PCYERMXX,Rug,Kitchen Towel,Medium High
+216,A3FIQ72HYZBNWC,Rug,Kitchen Towel,Medium
+217,AKLKDS34ZAGML,Rug,Kitchen Towel,Medium Low
+218,A1LW9X1B88MB1C,Rug,Kitchen Towel,Medium
+219,A1C4LNTWGUOD4P,Doormat,Curtain,Medium
+220,A3FIQ72HYZBNWC,Doormat,Curtain,Medium
+221,AKLKDS34ZAGML,Doormat,Curtain,Low
+222,A3UEM5PCYERMXX,Doormat,Curtain,Very Low
+223,A15SJZQBR8I3B3,Doormat,Curtain,Very Low
+224,A1LG8QD78XR5OS,Curtain,Pillow case,Medium
+225,A3FIQ72HYZBNWC,Curtain,Pillow case,Medium Low
+226,A3UEM5PCYERMXX,Curtain,Pillow case,Low
+227,A1C4LNTWGUOD4P,Curtain,Pillow case,Medium
+228,AKLKDS34ZAGML,Curtain,Pillow case,Medium
+229,A2P7GS077JVDJK,Clothesline,Broom,Very Low
+230,A1C4LNTWGUOD4P,Clothesline,Broom,Medium High
+231,A3FIQ72HYZBNWC,Clothesline,Broom,Medium
+232,A19Q676CHKCVOR,Clothesline,Broom,Very Low
+233,AKLKDS34ZAGML,Clothesline,Broom,Low
+234,A14MCHQB6Z8MVT,Candle Holder,Flowerpot,Medium
+235,A3FIQ72HYZBNWC,Candle Holder,Flowerpot,Medium
+236,AKLKDS34ZAGML,Candle Holder,Flowerpot,Medium Low
+237,ATT3WMHDZNE0F,Candle Holder,Flowerpot,Very Low
+238,A3UEM5PCYERMXX,Candle Holder,Flowerpot,Medium
+239,A1LG8QD78XR5OS,Matchbox,Book,Low
+240,ATT3WMHDZNE0F,Matchbox,Book,Very Low
+241,A3UEM5PCYERMXX,Matchbox,Book,Low
+242,A19Q676CHKCVOR,Matchbox,Book,Low
+243,AKLKDS34ZAGML,Matchbox,Book,Low
+244,A1LG8QD78XR5OS,Jar,Pot,Low
+245,AJ9O2ZA0E8UDZ,Jar,Pot,Medium High
+246,A312HQ3OU0EYTB,Jar,Pot,Medium Low
+247,A26KLP2RK19RR3,Jar,Pot,Medium Low
+248,AKLKDS34ZAGML,Jar,Pot,Medium Low
+249,AUUQDYF0LERY6,Jar,Pot,Medium Low
+250,A9JPMRRBFO4NL,Jar,Pot,Very Low
+251,A2P7GS077JVDJK,Jar,Pot,Medium
+252,A38O2DVYPB632V,Jar,Pot,High
+253,A3UEM5PCYERMXX,Container,Cup,High
+254,ACLKZFL7JKOYG,Container,Cup,Medium
+255,AKLKDS34ZAGML,Container,Cup,Medium
+256,A1C4LNTWGUOD4P,Container,Cup,Medium
+257,A3FIQ72HYZBNWC,Container,Cup,Medium Low
